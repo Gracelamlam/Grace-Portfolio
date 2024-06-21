@@ -1,0 +1,217 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.nav {
+	background-color: brown;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding: 10px 0;
+	text-transform: uppercase;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.nav .container {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+
+nav .p {
+	display: inline-block;
+	font-weight: bold;
+	margin: 0;
+}
+
+.nav ul {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.nav li {
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.nav a {
+	text-decoration: none;
+	color: #fff;
+}
+
+/*以下是header*/
+
+.header {
+	background-image: url("./images/bg-header.jpg");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	padding: 0;
+}
+
+.header .container {
+	height: 450px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.header h1 {
+	font-size: 80px;
+	color: #ea0b2a;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.header span {
+	display: block;
+	color: burlywood;
+	font-size: 50px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	margin: auto;
+}
+
+/*以下是About-1*/
+
+.about-1 {
+	height: 400px;
+	background-image: url("./images/Mickey Mouse Shows.jpg");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	padding: 160px;
+}
+
+.about-1 h2 {
+	font-size: 80px;
+	color: aliceblue;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.about-1 p {
+	display: block;
+	color: aliceblue;
+	font-size: 20px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+/*以下是about-2*/
+
+.about-2 {
+	background-color: darkslategray;
+	color: antiquewhite;
+	padding: 100px 0;
+}
+
+.about-2 .container {
+	display: flex;
+	justify-content: center;
+}
+
+.about-2 .left {
+	display: inline-block;
+	width: 500px;
+	vertical-align: middle;
+	line-height: 1.6;
+}
+
+.about-2 .right {
+	width: 420px;
+	vertical-align: middle;
+	padding-left: 60px;
+}
+
+.about-2 img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+/*Blow is about-3 top-part*/
+
+.about-3 img {
+	width: 100%;
+	display: block;
+}
+
+.about-3 .left {
+	width: 50%;
+}
+
+.about-3 .right {
+	width: 50%;
+	color: darkolivegreen;
+}
+
+.top-part {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+
+.top-part .right {
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+
+.bottom-part {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	flex-direction: row-reverse;
+}
+
+.bottom-part .right {
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+/* Below is Footer*/
+
+.footer {
+	background-image: url("./images/Red Mickey Mouse.jpg");
+	background-size: cover;
+	height: 400px;
+	text-align: center;
+	padding: 100px;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.footer h1 {
+	font-size: 48px;
+	color: #f4b220;
+}
+
+.footer p {
+	color: #f4b220;
+}
+
+.footer a {
+	display: inline-block;
+	background-color: green;
+	padding: 15px 30px;
+	border-radius: 50px;
+	color: aliceblue;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all .5s ease;
+	margin-top: 20px;
+}
+
+.footer a:hover {
+	background: red;
+	transform: scale(1.5);
+}
